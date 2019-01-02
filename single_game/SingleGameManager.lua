@@ -19,7 +19,7 @@ local isFreeMessAnswer = false
 SingleGameManager.pos_ = {SELF = 0, PRE = 2, NEXT = 1} --座位号
 SingleGameManager.arrayType_ = {BOTTOM = 99, ALL = 100} --数组标识，用于删除数组元素用
 
-SingleGameManager.IS_USE_TEST_CARDS = false
+SingleGameManager.IS_USE_TEST_CARDS = true
 SingleGameManager.SELF = SingleGameManager.pos_.SELF
 SingleGameManager.PRE = SingleGameManager.pos_.PRE
 SingleGameManager.NEXT = SingleGameManager.pos_.NEXT
