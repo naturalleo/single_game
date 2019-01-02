@@ -1,7 +1,7 @@
 local log_util = {}
 
 function log_util.isDebug()
-	return false
+	return true
 end
 
 function log_util.i(TAG, ...)
